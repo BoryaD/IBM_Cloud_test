@@ -13,8 +13,8 @@ if __name__ == '__main__':
         data_cos = json.load(read_file)
 
 # Constants for IBM COS values
-COS_ENDPOINT = "https://s3.eu-de.cloud-object-storage.appdomain.cloud"
-BUCKET_NAME = 'testprepnov2-bucket'
+COS_ENDPOINT = "s3.eu-de.cloud-object-storage.appdomain.cloud"
+BUCKET_NAME = 'first-boryas-bucket'
 
 COS_API_KEY_ID = data_cos['apikey']
 ACCESS_KEY_ID = data_cos['cos_hmac_keys']['access_key_id']

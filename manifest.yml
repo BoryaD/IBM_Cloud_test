@@ -1,4 +1,4 @@
 applications:
-- name: test-app-py-cos-db2
+- name: test-app-py-cos-db2-borya
   random-route: true
   memory:  128M
